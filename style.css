@@ -771,9 +771,13 @@ ul {
 }
 
 .access-map {
-  aspect-ratio: 4 / 3;
+  min-height: 360px;
   border-radius: var(--radius);
   overflow: hidden;
+}
+
+.access-map iframe {
+  display: block;
 }
 
 /* ===== Contact ===== */
