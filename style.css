@@ -729,9 +729,8 @@ ul {
 
 .access-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 40px;
-  align-items: start;
 }
 
 .access-item {
@@ -771,7 +770,7 @@ ul {
 }
 
 .access-map {
-  min-height: 360px;
+  height: 450px;
   border-radius: var(--radius);
   overflow: hidden;
 }
