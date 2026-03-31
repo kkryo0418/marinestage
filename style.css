@@ -660,7 +660,9 @@ ul {
 
 .staff-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  max-width: 420px;
+  margin: 0 auto;
   gap: 24px;
 }
 
@@ -683,9 +685,11 @@ ul {
   justify-content: center;
 }
 
-.staff-avatar svg {
+.staff-avatar svg,
+.staff-avatar img {
   border-radius: 50%;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .staff-card h3 {
